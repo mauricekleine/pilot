@@ -18,11 +18,7 @@ function Home() {
           a small starting point for a useful app. the frame is here. what it does is yours to build.
         </p>
         <div className="opening-actions">
-          <Button
-            render={<a href="https://github.com/mauricekleine/app-template#readme" />}
-            nativeButton={false}
-            role="link"
-          >
+          <Button render={<a href="https://github.com/mauricekleine/pilot#readme" />} nativeButton={false} role="link">
             make it yours <Icon name="arrow" />
           </Button>
           <a href="https://superthread.mauricekleine.com/components/button">explore the components</a>

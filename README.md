@@ -1,4 +1,4 @@
-# app-template
+# pilot
 
 A running TanStack Start app for Maurice's fleet. Bun, React, Tailwind and superthread v2, with Soliton and Cloudflare targets from the same source. Public, MIT, and a GitHub template.
 
@@ -77,10 +77,10 @@ The app stamp is:
 
 ```json
 {
-  "template": "mauricekleine/app-template",
+  "template": "mauricekleine/pilot",
   "template_sha": null,
   "target": "soliton",
-  "name": "app-template"
+  "name": "pilot"
 }
 ```
 
