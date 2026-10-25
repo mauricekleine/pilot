@@ -73,14 +73,14 @@ The manifest has `schema_version`, `version`, an explicit `files` array, `packag
 
 `package_json.owned_keys` is a list of RFC 6901 JSON pointers, each owning one leaf. For example `/dependencies/@tanstack~1react-start` names the Start pin; it does not own the rest of `dependencies`. Shared scripts and shared dependency pins are listed individually. Package name, app version, app scripts and app dependencies outside these pointers belong to the app. Removing a pointer in a future manifest is an owned deletion, subject to the same three-way conflict rule as a removed file.
 
-The app stamp is:
+The source template’s stamp is (creation replaces the name, target and SHA in an app):
 
 ```json
 {
-  "template": "mauricekleine/pilot",
+  "template": "mauricekleine/app-template",
   "template_sha": null,
   "target": "soliton",
-  "name": "pilot"
+  "name": "app-template"
 }
 ```
 
