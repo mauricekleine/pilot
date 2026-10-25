@@ -1,6 +1,6 @@
 {
   "template": "mauricekleine/app-template",
-  "template_sha": null,
-  "target": "soliton",
-  "name": "app-template"
+  "template_sha": "789e2d1a7fd11665212388cddbd3baaa373e8105",
+  "target": "cloudflare",
+  "name": "pilot"
 }

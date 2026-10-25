@@ -2,7 +2,7 @@ import { bindings, defineConfig } from "cf/config";
 
 export default defineConfig({
   worker: {
-    name: "app-template",
+    name: "pilot",
     compatibilityDate: "2026-07-16",
     compatibilityFlags: ["nodejs_compat"],
     entrypoint: "./src/server.ts",
