@@ -1,6 +1,6 @@
 {
   "template": "mauricekleine/app-template",
-  "template_sha": "d10e09ce355077a91cf7f4312ccfbff490bfb109",
+  "template_sha": "865b617f3a51bab417fb8dfd435671038be4877d",
   "target": "cloudflare",
   "name": "pilot"
 }
