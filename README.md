@@ -2,6 +2,8 @@
 
 A running TanStack Start app for Maurice's fleet. Bun, React, Tailwind and superthread v2, with Soliton and Cloudflare targets from the same source. Public, MIT, and a GitHub template.
 
+pilot is the app template's Cloudflare canary: the only app made from the template that targets Cloudflare, so it proves template changes on Workers. It is not a fleet ship and has no cell in the fleet rail.
+
 ## Run it
 
 Use Bun 1.4.4. Tooling that needs Node uses 24.22.1 (`.node-version`).
