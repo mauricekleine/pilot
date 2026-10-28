@@ -16,7 +16,7 @@
     "deploy:verify": "bun tools/deploy-verify.ts",
     "registry:install": "bun tools/registry-install.ts",
     "prepare": "husky",
-    "deploy": "PATH=\"$HOME/.local/bin:$PATH\" cf deploy --prebuilt"
+    "deploy": "bun tools/cloudflare-deploy.ts"
   },
   "dependencies": {
     "@base-ui/react": "~1.8.0",
